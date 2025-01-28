@@ -73,6 +73,7 @@
          'e'
          'f';
     }
+    
 }
 
 .grid-container1 {
@@ -144,4 +145,24 @@
        'g'
        'h';
     }
+}
+.grid-container3 {
+    display:grid;
+    grid-template-columns: (5 1fr);
+    height:100vh;
+    gap:10px;
+    text-align:center;
+}
+.rec {
+    font-size:16px;
+    text-align:center;
+    height:100%;
+    position:relative;
+}
+.rec>p{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
